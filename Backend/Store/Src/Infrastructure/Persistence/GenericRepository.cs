@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Persistence;
 
-public class ApplicationDbContext
+public class GenericRepository
 {
     
 }
