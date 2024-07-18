@@ -1,0 +1,12 @@
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\bin\Debug\net8.0\Domain.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\bin\Debug\net8.0\Domain.pdb
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\Domain.pdb
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Domain\obj\Debug\net8.0\ref\Domain.dll
