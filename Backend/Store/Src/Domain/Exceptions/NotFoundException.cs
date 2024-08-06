@@ -1,16 +1,16 @@
 ﻿namespace Domain.Exceptions;
 
-public class NotFoundException : BaseException
+public class NotFoundEntityException : BaseException
 {
-    public NotFoundException() : base("موردی یافت نشد")
+    public NotFoundEntityException() : base("موردی یافت نشد")
     {
     }
 
-    public NotFoundException(List<string> messages) : base(messages)
+    public NotFoundEntityException(List<string> messages) : base(messages)
     {
     }
 
-    public NotFoundException(string message) : base(message)
+    public NotFoundEntityException(string message) : base(message)
     {
     }
 }

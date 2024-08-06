@@ -1,16 +1,16 @@
 ﻿namespace Domain.Exceptions;
 
-public class BadRequestException : BaseException
+public class BadRequestEntityException : BaseException
 {
-    public BadRequestException(List<string> messages) : base(messages)
+    public BadRequestEntityException(List<string> messages) : base(messages)
     {
     }
 
-    public BadRequestException(string message) : base(message)
+    public BadRequestEntityException(string message) : base(message)
     {
     }
 
-    public BadRequestException() : base("خطایی رخ داده است لطفا دوباره تلاش کنید")
+    public BadRequestEntityException() : base("خطایی رخ داده است لطفا دوباره تلاش کنید")
     {
         
     }

@@ -1,6 +1,9 @@
-﻿namespace Application.Features.ProductBrands.Queries.GetAll;
+﻿using Domain.Entities;
+using MediatR;
 
-public class GetAllProductBrandQuery
+namespace Application.Features.ProductBrands.Queries.GetAll;
+
+public class GetAllProductBrandQuery:IRequest<IEnumerable< ProductBrand>>
 {
     
 }

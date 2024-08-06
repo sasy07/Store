@@ -1,6 +1,15 @@
-﻿namespace Application.Features.Products.Queries.Get;
+﻿using Application.Dtos.Products;
+using Domain.Entities;
+using MediatR;
 
-public class GetProductQuery
+namespace Application.Features.Products.Queries.Get;
+
+public class GetProductQuery:IRequest<ProductDto>
 {
-    
+    public int Id { get; set; }
+
+    public GetProductQuery(int id)
+    {
+        Id = id;
+    }
 }

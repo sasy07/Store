@@ -143,3 +143,8 @@ D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\obj\Debug\net8.
 D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\obj\Debug\net8.0\Web.pdb
 D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\obj\Debug\net8.0\Web.genruntimeconfig.cache
 D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\obj\Debug\net8.0\ref\Web.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\bin\Debug\net8.0\MediatR.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\bin\Debug\net8.0\AutoMapper.dll
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\bin\Debug\net8.0\Web.staticwebassets.runtime.json
+D:\WorkSpace\AngularAspNetCore_EShop\Store\Backend\Store\Src\Web\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -4,14 +4,104 @@
     "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj": {
+    "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj",
-        "projectName": "Web",
-        "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj",
+        "projectUniqueName": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Elderbug\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\obj\\",
+        "outputPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Elderbug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Elderbug\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,10 +134,172 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Elderbug\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Elderbug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Application\\Application.csproj": {
+                "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj",
+        "projectName": "Web",
+        "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\Elderbug\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Elderbug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

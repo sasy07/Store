@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Application.Features.ProductBrands.Queries.GetAll;
+using Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
+using Web.Common;
 
 namespace Web.Controllers;
 
-public class ProductBrandController : Controller
+public class ProductBrandController : BaseApiController
 {
-    // GET
-    public IActionResult Index()
-    {
-        return View();
-    }
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<ProductBrand>>> Get(CancellationToken cancellationToken)
+        => Ok(await Mediator.Send(new GetAllProductBrandQuery(), cancellationToken));
 }

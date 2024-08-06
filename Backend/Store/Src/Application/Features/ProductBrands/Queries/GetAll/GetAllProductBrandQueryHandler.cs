@@ -15,5 +15,9 @@ public class GetAllProductBrandQueryHandler : IRequestHandler<GetAllProductBrand
 
     public async Task<IEnumerable<ProductBrand>> Handle(GetAllProductBrandQuery request
         , CancellationToken cancellationToken)
-        => await _uow.Repository<ProductBrand>().GetAllAsync(cancellationToken);
+
+    {
+        var spec = new GetProductBrandSpec();
+        return await _uow.Repository<ProductBrand>().ListAsyncSpec(spec, cancellationToken);
+    }
 }

@@ -1,6 +1,9 @@
-﻿namespace Application.Common.Mapping;
+﻿using AutoMapper;
 
-public interface IMapFrom
+namespace Application.Common.Mapping;
+
+public interface IMapFrom<T>
 {
-    
+    virtual void Mapping(Profile profile) 
+        => profile.CreateMap(typeof(T), GetType());
 }

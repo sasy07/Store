@@ -1,6 +1,7 @@
 ﻿namespace Domain.Entities.Base;
 
-public class BaseEntity
+public abstract class BaseEntity
 {
-    
+    public int Id { get; set; }
+    public bool IsDelete { get; set; }
 }

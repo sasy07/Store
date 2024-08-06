@@ -2,7 +2,7 @@
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence;
+namespace Infrastructure.Persistence.Context;
 
 public class ApplicationDbContext:DbContext
 {
@@ -19,5 +19,8 @@ public class ApplicationDbContext:DbContext
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        modelBuilder.Entity<Product>().HasQueryFilter(x => !x.IsDelete);
+        modelBuilder.Entity<ProductType>().HasQueryFilter(x => !x.IsDelete);
+        modelBuilder.Entity<ProductBrand>().HasQueryFilter(x => !x.IsDelete);
     }
 }

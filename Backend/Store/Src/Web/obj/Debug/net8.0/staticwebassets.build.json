@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "I45YKMxdLd4rSIfiy4Jy7K87CK1wxLboE3ngw90NHmQ=",
+  "Hash": "Fnj1leU3CDVl2IU/pW90BRVgL4ReCpwxiErmo5uGpRo=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web\\wwwroot",
+      "Source": "Web",
+      "ContentRoot": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\wwwroot\\images\\products\\image.jpeg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WorkSpace\\AngularAspNetCore_EShop\\Store\\Backend\\Store\\Src\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "images/products/image.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\image.jpeg"
+    }
+  ]
 }

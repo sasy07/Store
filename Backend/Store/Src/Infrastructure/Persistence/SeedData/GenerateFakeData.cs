@@ -1,4 +1,4 @@
-﻿using Domain.Entities.ProductEntity;
+﻿using Domain.Entities;
 using Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
